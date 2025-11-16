@@ -267,6 +267,34 @@ Per call                                                           $0.00`
       where: 'Twilio cloud communications platform',
       breakdown: '100 users: $1,200 | 1,000 users: $12,000 | 10,000 users: $120,000'
     }
+  },
+  {
+    id: 'make-com',
+    app: 'Make.com (used for scraping leads)',
+    cost100: 678,
+    cost1000: 678,
+    cost10000: 678,
+    notes: '60k leads per month - ~600,000 operations',
+    details: {
+      why: 'Automated lead scraping workflow automation',
+      how: 'Fixed monthly cost for ~600,000 operations handling 60k leads per month',
+      where: 'Make.com automation platform',
+      breakdown: 'Fixed cost: $678/month regardless of user count\n60,000 leads/month\n~600,000 operations/month'
+    }
+  },
+  {
+    id: 'custom-website-chatbot',
+    app: 'Custom Website Chatbot',
+    cost100: 17000,
+    cost1000: 170000,
+    cost10000: 1700000,
+    notes: '~30,000 tokens per user interaction.\n\n~1,000 website users per month\n\n= 30,000,000 tokens for 1 PointCall client\n\n(~$170)\n\n(GPT 5 Calculation)',
+    details: {
+      why: 'AI-powered chatbot for customer websites',
+      how: '~30,000 tokens per user interaction × ~1,000 website users/month = 30,000,000 tokens/client',
+      where: 'GPT-5 API for chatbot interactions',
+      breakdown: 'Per PointCall client:\n- ~30,000 tokens per user interaction\n- ~1,000 website users per month\n- Total: 30,000,000 tokens per client\n- Cost: ~$170 per client\n- Calculation based on GPT-5 pricing'
+    }
   }
 ];
 

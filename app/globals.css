@@ -312,3 +312,207 @@ body::before {
   );
   box-shadow: 0 0 10px rgba(102, 126, 234, 0.3);
 }
+
+/* Details button with increased side padding */
+.details-button {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Modal Padding Classes */
+.modal-container {
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  .modal-container {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-container {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .modal-container {
+    padding: 2.5rem;
+  }
+}
+
+.modal-content {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .modal-content {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-content {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .modal-content {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+}
+
+.modal-header {
+  padding-top: 4.5rem;
+  padding-bottom: 3.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .modal-header {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-header {
+    padding-top: 5.5rem;
+    padding-bottom: 4.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .modal-header {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+}
+
+.modal-section {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .modal-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-section {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .modal-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+}
+
+.modal-close-button {
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .modal-close-button {
+    top: 2rem;
+    right: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-close-button {
+    top: 2.5rem;
+    right: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .modal-close-button {
+    top: 3rem;
+    right: 3rem;
+  }
+}
+
+/* Category Container Styles */
+.modal-category-container {
+  padding: 2rem 2rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 640px) {
+  .modal-category-container {
+    padding: 2.5rem 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-category-container {
+    padding: 3rem 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .modal-category-container {
+    padding: 3.5rem 3.5rem;
+  }
+}
+
+.modal-category-container:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.03) 100%);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.notes-spacing {
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .notes-spacing {
+    margin-top: 2rem;
+  }
+}
